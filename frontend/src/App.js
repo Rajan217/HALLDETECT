@@ -14,11 +14,13 @@ export default function App() {
     setError(null);
     setResult(null);
     try {
-      const res = await fetch("http://localhost:5000/ask", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ query }),
-      });
+    const API_BASE = process.env.REACT_APP_API_BASE || "http://localhost:5000";
+
+const res = await fetch(`${API_BASE}/ask`, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({ query }),
+});
       if (!res.ok) throw new Error(`API returned ${res.status}`);
       const data = await res.json();
       setResult(data);
