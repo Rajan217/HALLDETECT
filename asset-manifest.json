@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HALLDETECT/static/css/main.e6c13ad2.css",
+    "main.js": "/HALLDETECT/static/js/main.5a812ae1.js",
+    "static/js/453.670e15c7.chunk.js": "/HALLDETECT/static/js/453.670e15c7.chunk.js",
+    "index.html": "/HALLDETECT/index.html",
+    "main.e6c13ad2.css.map": "/HALLDETECT/static/css/main.e6c13ad2.css.map",
+    "main.5a812ae1.js.map": "/HALLDETECT/static/js/main.5a812ae1.js.map",
+    "453.670e15c7.chunk.js.map": "/HALLDETECT/static/js/453.670e15c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.5a812ae1.js"
+  ]
+}
